@@ -10,6 +10,11 @@ def talker():
 		#insert stuff here based on "ROS tutorial 3: publishers and subscribers in c++ & python (video on Anis Koubaa's youtube channel)"
 
 
+def fig8_follow():
+#You will likely want to call the turtle1/teleport absolute service to get the turtle located and
+#oriented correctly for the t = 0 case.
+	rospy.wait_for_service('turtle1/teleport_absolute')
+	teleport_absolute=rospy.ServiceProxy('turtle1/teleport_absolute', TeleportAbsolute)
 
 
 if __name__ == '__main__':
