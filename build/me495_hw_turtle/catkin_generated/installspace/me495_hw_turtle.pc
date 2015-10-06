@@ -1,0 +1,8 @@
+prefix=/home/vince/Documents/Github/turtle_sim/install
+
+Name: me495_hw_turtle
+Description: Description of me495_hw_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vince/Documents/Github/turtle_sim/install/lib 
+Requires: 

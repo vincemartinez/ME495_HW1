@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "me495_hw_turtle")
+set(me495_hw_turtle_MAINTAINER "vince <vince@todo.todo>")
+set(me495_hw_turtle_DEPRECATED "")
+set(me495_hw_turtle_VERSION "0.0.0")
+set(me495_hw_turtle_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(me495_hw_turtle_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(me495_hw_turtle_BUILDTOOL_DEPENDS "catkin")
